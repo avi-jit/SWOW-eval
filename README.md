@@ -28,8 +28,17 @@ Word Association games are those wherein a participant is asked to utter the fir
 
 
 ## Word Embeddings
+Word Embeddings are vector representation of words, i.e. an array of floating point numbers for each word. This helps computers make more sense out of the mystical natural langauge we humans use, and has been fairly helpful in recent developments in Natural Language Processing (think Machine Translation), Information Retrieval (think Search Engines), and Image Captioning (think Google Images or GIF search). In layman terms, the secret lies in letting related words have similar vectors, but there have been a slew of approaches to come up with such word embeddings. We list down some of the most popular, as well as the most effective ones so far. We have used the pretrained versions of these in our experimentation and you shall find them in the folder `WordVectors`:
+* **Word2Vec Skip Gram** ([Mikolov et al. 2013a](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) ; [Mikolov et al. 2013b](https://arxiv.org/pdf/1301.3781.pdf)) trained on Google News. [[Download]](http://code.google.com/archive/p/word2vec/) 
+* **GloVe** ([Pennington et al. 2014](https://www.aclweb.org/anthology/D14-1162)) trained on Wikipedia 2014 and Gigaword 5. [[Download]](http://nlp.stanford.edu/projects/glove/)
+* **FastText** ([Bojanowski et al. 2017](https://aclweb.org/anthology/Q17-1010)) trained with subword information on Common Crawl (600B tokens). [[Download]](http://fasttext.cc/docs/en/english-vectors.html)
+* **ConceptNet Numberbatch** ([Speer et al. 2017](https://arxiv.org/pdf/1612.03975.pdf)) trained on a knowledge graph and some text corpora. [[Download]](http://github.com/commonsense/conceptnet-numberbatch)
+* **Count based** ([Baroni et al. 2014](https://www.aclweb.org/anthology/P14-1023)) which is the result of reducing dimensionality of a large count matrix. [[Download]](http://clic.cimec.unitn.it/dm/)
+
+You shall also find a **Base Random** embedding in the folder `WordVectors`, which is a baseline developed by randomly allotting 300 floating numbers to each word in the common vocabulary of the above five embeddings.
 
 ## Intrinsic Evaluation
+
 
 ## Extrinsic Evaluation
 
