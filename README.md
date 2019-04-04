@@ -16,12 +16,14 @@ This repository also serves as the go-to page regarding our paper titled *"SWOW-
 ## The Gist
 
 ## Word Associations
+![alt text](https://raw.githubusercontent.com/avi-jit/SWOW-eval/blob/master/wordgame.jpg)
+
 Word Association games are those wherein a participant is asked to utter the first (or first few) words that occur to him/her when given a trigger/cue/stimulus word. For example, given the cue *king*, one could respond with *rule*, *queen*, *kingdom*, or even *kong* (from the movie King Kong). Word associations have long intrigued psychologists [including Carl Jung](https://www.all-about-psychology.com/association-method.html) and hence large studies have been conducted in this direction. Some prominent datasets which collect user responses to word association games are:
 
 * [USF-FA](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/fa/FreeAssoc.htm): University of Southern Florida Free Association norms have single-word association responses from an average of 149 participants per cue for a set of 5,019 cue words.
 * [EAT](http://rali.iro.umontreal.ca/rali/?q=en/Textual%20Resources/EAT): Edinburgh Association Thesaurus collects 100 responses per cue for a total of 8,400 cues. 
-* [JeuxDeMots](http://www.jeuxdemots.org/jdm-accueil.php): over 5 million french words. 
-* [SWOW](https://smallworldofwords.org/en/project): Small World of Words lists word association and participant data for 100 primary, secondary and tertiary responses to 12,292 cues, collected from over 90,000 participants. 
+* [JeuxDeMots](http://www.jeuxdemots.org/jdm-accueil.php): is a crowdsourced game which has collected over 5 million french word associations so far. 
+* **[SWOW (Small World of Words)](https://smallworldofwords.org/en/project)**: lists word association and participant data for 100 primary, secondary and tertiary responses to 12,292 cues, collected from over 90,000 participants. 
 * [Birkbeck norms](https://books.google.co.in/books?id=loDxzOXCRlYC&printsec=frontcover): contain 40 to 50 responses for over 2,600 cues in British English.
 
 
