@@ -7,18 +7,17 @@ This repository also serves as the go-to page regarding our paper titled *"SWOW-
 0. [TL;DR](#the-gist)
 1. [Word Associations](#word-associations)
 2. [Word Embeddings](#word-embeddings)
-3. [Intrinsic Evaluation](#intrinsic-evaluation)
-4. [Extrinsic Evaluation](#extrinsic-evaluation)
-5. [How to Run](#how-to-run)
-6. [Results](#results)
-7. [Further Reading](#further-reading)
+3. [Intrinsic and Extrinsic Evaluation](#intrinsic-and-extrinsic-evaluation)
+4. [How to Run](#how-to-run)
+5. [Results](#results)
+6. [Further Reading](#further-reading)
 
 ## The Gist
 
 ## Word Associations
 <img align="right" src="https://github.com/avi-jit/SWOW-eval/blob/master/wordgame.jpg" data-canonical-src="https://github.com/avi-jit/SWOW-eval/blob/master/wordgame.jpg" width="320" height="200"/>
 
-Word Association games are those wherein a participant is asked to utter the first (or first few) words that occur to him/her when given a trigger / cue / stimulus word. For example, given the cue KING, one could respond with RULE, QUEEN, KINGDOM, or even KONG (from the film King Kong). Word associations have long intrigued psychologists including Carl Jung and hence large studies have been conducted in this direction. Some prominent datasets which collect user responses to word association games are:<br>
+Word Association games are those wherein a participant is asked to utter the first (or first few) words that occur to him/her when given a trigger / cue / stimulus word. For example, given the cue KING, one could respond with RULE, QUEEN, KINGDOM, or even KONG (from the film King Kong). Word associations have long intrigued psychologists including Carl Jung and hence large studies have been conducted in this direction. Some prominent datasets which collect user responses to word association games are enumerated as follows:<br>
 
 * [USF-FA](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/fa/FreeAssoc.htm): University of Southern Florida Free Association norms have single-word association responses from an average of 149 participants per cue for a set of 5,019 cue words.
 * [EAT](http://rali.iro.umontreal.ca/rali/?q=en/Textual%20Resources/EAT): Edinburgh Association Thesaurus collects 100 responses per cue for a total of 8,400 cues. 
@@ -37,10 +36,17 @@ Word Embeddings are vector representation of words, i.e. an array of floating po
 
 You shall also find a **Base Random** embedding in the folder `WordVectors`, which is a baseline developed by randomly allotting 300 floating numbers to each word in the common vocabulary of the above five embeddings.
 
-## Intrinsic Evaluation
+## Intrinsic and Extrinsic Evaluation
 
+It is of natural interest to the NLP community to identify evaluation metrics for word embeddings. Besides direct performance measurement on downstream tasks (also called **Extrinsic Evaluation**) like Sentiment Classification, Question Answering, and Chunking, there have also been proposed several **Intrinsic Evaluation** measures such as [WordSim-353](http://www.cs.technion.ac.il/~gabr/resources/data/wordsim353/) and [SimLex](https://fh295.github.io//simlex.html). While Extrinsic Evaluations use word embeddings as input features to a downstream task and measure changes in performance metrics specific to that task, Intrinsic Evaluations directly test for syntactic or semantic relationships between word ([Schnabel et al. 2015](https://www.aclweb.org/anthology/D15-1036). Another way to tell apart Intrinsic from Extrinsic evaluations is the lack of any trainable parameters in the former. 
 
-## Extrinsic Evaluation
+Intrinsic tasks are useful as long as they can accurately predict a model's performance on Extrinsic evaluations, since at the end of the day, the ability to solve downstream tasks is all that matters. Here are a few resources and existing projects that aim to bridge the gap between the two, by experimenting thoroughly with multiple tasks and multiple embeddings:
+
+* [VecEval](https://github.com/NehaNayak/veceval): a repository to run severael Extrinsic Evaluation tasks (slightly outdated) by [Nayak et al. 2016](https://cs.stanford.edu/~angeli/papers/2016-acl-veceval.pdf).
+* [wordvectors.org](https://github.com/mfaruqui/eval-word-vectors): a repository to run several Intrinsic Evaluation tasks, by [Faruqui and Dyer 2014](https://www.manaalfaruqui.com/papers/acl14-vecdemo.pdf).
+* [ACL SOTA](https://aclweb.org/aclwiki/Similarity_(State_of_the_art)): maintains benchmark pages for word similarity.
+* [Vecto AI](https://github.com/vecto-ai/word-benchmarks): an exhaustive collection of Intrinsic tasks, beyond word similarity and relatedness. [Vecto](https://vecto.readthedocs.io/en/docs/tutorial/index.html) is also a library to help run experiments in distributional semantics.
+
 
 ## How to Run
 
