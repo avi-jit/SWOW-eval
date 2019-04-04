@@ -16,8 +16,7 @@ This repository also serves as the go-to page regarding our paper titled *"SWOW-
 ## The Gist
 
 ## Word Associations
-![alt text](https://raw.githubusercontent.com/avi-jit/SWOW-eval/blob/master/wordgame.jpg)
-
+<img align="left" src="https://github.com/avi-jit/SWOW-eval/blob/master/wordgame.jpg" data-canonical-src="https://github.com/avi-jit/SWOW-eval/blob/master/wordgame.jpg" width="350" height="240"/> 
 Word Association games are those wherein a participant is asked to utter the first (or first few) words that occur to him/her when given a trigger/cue/stimulus word. For example, given the cue *king*, one could respond with *rule*, *queen*, *kingdom*, or even *kong* (from the movie King Kong). Word associations have long intrigued psychologists [including Carl Jung](https://www.all-about-psychology.com/association-method.html) and hence large studies have been conducted in this direction. Some prominent datasets which collect user responses to word association games are:
 
 * [USF-FA](http://vlado.fmf.uni-lj.si/pub/networks/data/dic/fa/FreeAssoc.htm): University of Southern Florida Free Association norms have single-word association responses from an average of 149 participants per cue for a set of 5,019 cue words.
