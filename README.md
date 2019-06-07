@@ -1,7 +1,7 @@
 # SWOW-eval
 This project describes a new task for evaluating pre-trained word embeddings. In particular, we present the intrinsic evaluation task originally named **SWOW-8500**, and employs a large word association dataset called the [Small World of Words (SWOW)](https://smallworldofwords.org/en/). 
 
-This repository also serves as the go-to page regarding our paper titled *"SWOW-8500: Word Association Task for Intrinsic Evaluation of Word Embeddings"*, accepted at the [RepEval2019](https://repeval2019.github.io/program/) workshop, collocated with the 2019 Annual Conference of the North American Chapter of the Association for Computational Linguistics ([NAACL 2019](https://naacl2019.org) June 2–7, 2019, at Minneapolis, United States.
+This repository also serves as the go-to page regarding our paper titled *"【SWOW-8500: Word Association Task for Intrinsic Evaluation of Word Embeddings】(https://www.aclweb.org/anthology/papers/W/W19/W19-2006/)"*, accepted at the [RepEval2019](https://repeval2019.github.io/program/) workshop, collocated with the 2019 Annual Conference of the North American Chapter of the Association for Computational Linguistics ([NAACL 2019](https://naacl2019.org) June 2–7, 2019, at Minneapolis, United States.
 
 ## Contributors
 
