@@ -25,6 +25,32 @@ Associate Professor, Department of Computer Science and Engineering, Indian Inst
 6. [Further Reading](#further-reading)
 7. [License](#license)
 
+## Citation
+
+Please consider citing us if you found our project useful:
+
+```
+@inproceedings{thawani-etal-2019-swow,
+    title = "{SWOW}-8500: Word Association task for Intrinsic Evaluation of Word Embeddings",
+    author = "Thawani, Avijit  and
+      Srivastava, Biplav  and
+      Singh, Anil",
+    editor = "Rogers, Anna  and
+      Drozd, Aleksandr  and
+      Rumshisky, Anna  and
+      Goldberg, Yoav",
+    booktitle = "Proceedings of the 3rd Workshop on Evaluating Vector Space Representations for {NLP}",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W19-2006",
+    doi = "10.18653/v1/W19-2006",
+    pages = "43--51",
+    abstract = "Downstream evaluation of pretrained word embeddings is expensive, more so for tasks where current state of the art models are very large architectures. Intrinsic evaluation using word similarity or analogy datasets, on the other hand, suffers from several disadvantages. We propose a novel intrinsic evaluation task employing large word association datasets (particularly the Small World of Words dataset). We observe correlations not just between performances on SWOW-8500 and previously proposed intrinsic tasks of word similarity prediction, but also with downstream tasks (eg. Text Classification and Natural Language Inference). Most importantly, we report better confidence intervals for scores on our word association task, with no fall in correlation with downstream performance.",
+}
+```
+
 ## Word Associations
 <img align="right" src="https://github.com/avi-jit/SWOW-eval/blob/master/wordgame.jpg" data-canonical-src="https://github.com/avi-jit/SWOW-eval/blob/master/wordgame.jpg" width="320" height="200"/>
 
